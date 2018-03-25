@@ -1,0 +1,106 @@
+/* ADD YOUR CSS STYLES BELOW */
+
+.container {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.movie{
+  width: 90%;
+  height: 55%;
+  position: relative;
+  float: left;
+  margin: 5%;
+  margin-bottom: 0%;
+  border: 2px solid black;
+}
+
+.ladybird{
+  background: url("img/ladybird.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.callmebyyourname{
+  background: url("img/callmebyyourname.jpg");
+  background-size: cover;
+}
+.phantomthread{
+  background: url("img/phantomthread.jpg");
+  background-size: cover;
+}
+.shapeofwater{
+  background: url("img/shapeofwater.jpg");
+  background-size: cover;
+}
+
+.join{
+  color: black;
+  font-size: 18px;
+  background: white;
+  border: 2px solid black;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  padding: 2%
+}
+.join a {
+  display: block;
+  color: black
+}
+
+.join a:visited{
+  color: black;
+}
+/*.one {
+  top:5px
+}
+.two {
+  top:400px
+}
+.three {
+  top:795px
+}
+.four {
+  top:1190px
+}
+body {
+  background: white;
+}*/
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
